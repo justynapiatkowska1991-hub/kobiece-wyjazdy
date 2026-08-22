@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Kobiece Wyjazdy</title>
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #fbf8f5;
+    color: #403936;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(135deg, #8b6b5d, #c9aa96);
+    color: white;
+    text-align: center;
+    padding: 75px 20px;
+}
+
+header h1 {
+    font-size: 45px;
+    margin: 0 0 15px;
+}
+
+header p {
+    font-size: 20px;
+    max-width: 750px;
+    margin: auto;
+}
+
+nav {
+    background: white;
+    padding: 15px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+nav a {
+    color: #6d5146;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 12px;
+}
+
+section {
+    max-width: 1050px;
+    margin: auto;
+    padding: 60px 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #6d5146;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.intro {
+    text-align: center;
+    max-width: 780px;
+    margin: auto;
+    font-size: 18px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.card {
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.08);
+}
+
+.card h3 {
+    color: #6d5146;
+    font-size: 23px;
+}
+
+.card strong {
+    color: #6d5146;
+}
+
+.price {
+    font-size: 27px;
+    font-weight: bold;
+    color: #8b6b5d;
+}
+
+.button {
+    display: inline-block;
+    background: #76564a;
+    color: white;
+    padding: 13px 25px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background: #5e463d;
+}
+
+.contact {
+    background: #efe5de;
+    border-radius: 25px;
+    padding: 40px;
+    text-align: center;
+}
+
+.contact p {
+    font-size: 20px;
+}
+
+.contact a.phone {
+    color: #6d5146;
+    font-weight: bold;
+}
+
+footer {
+    background: #5e4941;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 34px;
+    }
+
+    header p {
+        font-size: 17px;
+    }
+
+    nav a {
+        margin: 0 5px;
+        font-size: 14px;
+    }
+
+    section {
+        padding: 45px 15px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+
+<h1>Kobiece Wyjazdy</h1>
+
+<p>
+Wyjazdy integracyjno-terapeutyczne dla kobiet.
+<br>
+Czas na odpoczynek, rozmowę, relacje i zadbanie o siebie.
+</p>
+
+</header>
+
+
+<nav>
+
+<a href="#o-nas">O wyjazdach</a>
+
+<a href="#wyjazdy">Wyjazdy</a>
+
+<a href="#kontakt">Kontakt</a>
+
+</nav>
+
+
+<section id="o-nas">
+
+<h2>Chwila dla Ciebie</h2>
+
+<p class="intro">
+
+Kobiece Wyjazdy to przestrzeń stworzona dla kobiet,
+które potrzebują zatrzymać się na chwilę, odpocząć od codzienności
+i spędzić czas w atmosferze bezpieczeństwa, akceptacji i wzajemnego wsparcia.
+
+To okazja do poznania nowych osób, rozmowy, refleksji
+i zadbania o siebie.
+
+</p>
+
+</section>
+
+
+<section id="wyjazdy">
+
+<h2>Najbliższy wyjazd</h2>
+
+
+<div class="cards">
+
+<div class="card">
+
+<h3>
+Wyjazd integracyjno-terapeutyczny dla kobiet
+</h3>
+
+<p>
+<strong>Termin:</strong><br>
+5–10 października 2026
+</p>
+
+<p>
+<strong>Miejsce:</strong><br>
+Roztocze – Hotel Leśna Ostoja
+</p>
+
+<p>
+
+Kameralny wyjazd z dala od zgiełku.
+Spokojne miejsce, czas na odpoczynek,
+rozmowę, integrację oraz zadbanie o własne potrzeby.
+
+</p>
+
+<p>
+<strong>W cenie:</strong>
+</p>
+
+<ul>
+
+<li>noclegi</li>
+
+<li>wyżywienie</li>
+
+<li>udział w wyjeździe integracyjno-terapeutycznym</li>
+
+<li>czas na odpoczynek i integrację</li>
+
+</ul>
+
+<p class="price">
+1800 zł
+</p>
+
+<a
+class="button"
+href="tel:+48731503536"
+>
+Zapytaj o miejsce
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section id="kontakt">
+
+<div class="contact">
+
+<h2>Skontaktuj się ze mną</h2>
+
+<p>
+Masz pytania dotyczące wyjazdu?
+</p>
+
+<p>
+
+Telefon:
+
+<a
+class="phone"
+href="tel:+48731503536"
+>
+731 503 536
+</a>
+
+</p>
+
+
+<a
+class="button"
+href="https://www.facebook.com/share/19SePspsEB/"
+target="_blank"
+rel="noopener noreferrer"
+>
+Odwiedź Facebooka
+</a>
+
+</div>
+
+</section>
+
+
+<footer>
+
+© 2026 Kobiece Wyjazdy
+
+</footer>
+
+
+</body>
+</html>
