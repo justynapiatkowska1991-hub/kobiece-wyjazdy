@@ -316,5 +316,55 @@ Odwiedź Facebooka
 </footer>
 
 
-</body>
+<section id="zapisy" style="padding:50px 20px;background:#fff5f8;">
+  <div style="max-width:700px;margin:auto;">
+    <h2 style="text-align:center;color:#6d5146;font-size:32px;">
+      💗 ZAPISY ONLINE
+    </h2>
+
+    <p style="text-align:center;">
+      Zgłoś swoje uczestnictwo w wyjeździe „Kobiece Wyjazdy”.
+      Po otrzymaniu zgłoszenia skontaktujemy się z Tobą.
+    </p>
+
+    <form action="https://formsubmit.co/justynapiatkowska1991@gmail.com"
+          method="POST"
+          style="background:white;padding:25px;border-radius:15px;box-shadow:0 2px 12px rgba(0,0,0,.1);">
+
+      <input type="hidden" name="_subject" value="Nowe zgłoszenie – Kobiece Wyjazdy">
+      <input type="hidden" name="_template" value="table">
+
+      <label>Imię i nazwisko *</label>
+      <input type="text" name="Imię i nazwisko" required
+             style="width:100%;padding:13px;margin:8px 0 18px;border:1px solid #ddd;border-radius:8px;">
+
+      <label>Numer telefonu *</label>
+      <input type="tel" name="Telefon" required
+             style="width:100%;padding:13px;margin:8px 0 18px;border:1px solid #ddd;border-radius:8px;">
+
+      <label>Adres e-mail *</label>
+      <input type="email" name="E-mail" required
+             style="width:100%;padding:13px;margin:8px 0 18px;border:1px solid #ddd;border-radius:8px;">
+
+      <label>Liczba osób *</label>
+      <input type="number" name="Liczba osób" min="1" value="1" required
+             style="width:100%;padding:13px;margin:8px 0 18px;border:1px solid #ddd;border-radius:8px;">
+
+      <label>Uwagi</label>
+      <textarea name="Uwagi" rows="5"
+                style="width:100%;padding:13px;margin:8px 0 18px;border:1px solid #ddd;border-radius:8px;"></textarea>
+
+      <label style="display:block;margin-bottom:20px;">
+        <input type="checkbox" name="Zgoda na kontakt" value="TAK" required>
+        Wyrażam zgodę na kontakt w sprawie wyjazdu. *
+      </label>
+
+      <button type="submit"
+              style="width:100%;padding:15px;background:#6d5146;color:white;border:0;border-radius:10px;font-size:18px;font-weight:bold;">
+        💗 WYŚLIJ ZGŁOSZENIE
+      </button>
+
+    </form>
+  </div>
+</section></body>
 </html>
